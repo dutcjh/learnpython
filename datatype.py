@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Data type
+ALl the data type in Python is class type!
 """
 
 if __name__ == "__main__":
-    a = 1
-    b = 1.
-    print(type(a))
-    print(type(b))
+    print('1 is', type(1))
+    print('1.0 is', type(1.0))
+    print('True is', type(True))
+    print('None is', type(None))
+    print('"abc" is', type("abc"))
